@@ -24,5 +24,11 @@ namespace TugasLogin
         {
             Application.Exit();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            linkLabel1.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://youtu.be/mui-x9s7DQU?t=30");
+        }
     }
 }
